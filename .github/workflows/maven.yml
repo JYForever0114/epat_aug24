@@ -32,7 +32,7 @@ jobs:
     
     needs: just_a_name
 
-    runs on: unbuntu-latest
+    runs-on: unbuntu-latest
 
     steps:
     - uses: actions/checkout@v4
